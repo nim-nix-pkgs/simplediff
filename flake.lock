@@ -37,7 +37,34 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
+        "simplediff-master": "simplediff-master"
+      }
+    },
+    "simplediff-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "src-simplediff-master": "src-simplediff-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1650750584,
+        "narHash": "sha256-QDRubHWQZMp3Pq/5RPtwxJTeYlkhx/8dtMGMMPICm6s=",
+        "owner": "nim-nix-pkgs",
+        "repo": "simplediff",
+        "rev": "32f9870558d7b98783f08876090b089f4fd0eb09",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "simplediff",
+        "type": "github"
       }
     },
     "src-simplediff-master": {
